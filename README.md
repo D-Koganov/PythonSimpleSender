@@ -6,6 +6,7 @@ python -m venv venv
 -m venv venv -> use module venv to create virtual environment with name venv (can be any other)
 
 2. Activate
+
 Linux:
 source venv/bin/activate
 Windows:
@@ -20,6 +21,7 @@ requirements.txt was created using "pip freeze > requirements.txt".
 4. Play around
 
 5. Deactivate
+
 Linux:
 deactivate
 Windows:

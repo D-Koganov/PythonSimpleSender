@@ -1,0 +1,5 @@
+to build exe:
+pyinstaller -F sender.py
+
+Codecs example:
+["cp1252", "utf-16", "utf-8", "cp437", "utf-16be"]

@@ -1,16 +1,17 @@
 # PythonSimpleSender
 
 1. Create virtual environment
-python -m venv venv
+`python -m venv venv`
 
--m venv venv -> use module venv to create virtual environment with name venv (can be any other)
+-m venv venv -> use module venv to create virtual environment with name venv (can be any other name)
 
 2. Activate
 
 Linux:
-source venv/bin/activate
+`source venv/bin/activate`
+
 Windows:
-venv\Scripts\activate.bat
+`venv\Scripts\activate.bat`
 
 3. Import dependencies
 pip install -r requirements.txt
@@ -23,6 +24,7 @@ requirements.txt was created using "pip freeze > requirements.txt".
 5. Deactivate
 
 Linux:
-deactivate
+`deactivate`
+
 Windows:
-venv\Scripts\deactivate.bat
+`venv\Scripts\deactivate.bat`
